@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
    
   visitorAddr = req.connection.remoteAddress ;
   visitorAddr = visitorAddr.replace(/^.*:/, '') ;
-  res.send('<img src="/logo.svg" width=200px><H1>Hello World!</H1><br>Serving you from '+hostname+' <br>You are visitor: #'+visitorCount+' and coming from '+visitorAddr+'<br>') ;
+  res.send('<img src="/Azure.png" width=200px><H1>Hello World!</H1><br>Serving you from '+hostname+' <br>You are visitor: #'+visitorCount+' and coming from '+visitorAddr+'<br>') ;
   res.end() ;
 })
 
